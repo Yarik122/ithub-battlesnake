@@ -1,0 +1,49 @@
+TAP version 14
+# Subtest: avoid backwards self-collide from right
+    ok 1 - should be equal
+    1..1
+ok 1 - avoid backwards self-collide from right # time=5.733ms
+
+# Subtest: avoid backwards self-collide from left
+    ok 1 - should be equal
+    1..1
+ok 2 - avoid backwards self-collide from left # time=1.106ms
+
+# Subtest: avoid backwards self-collide from top
+    ok 1 - should be equal
+    1..1
+ok 3 - avoid backwards self-collide from top # time=0.975ms
+
+# Subtest: avoid backwards self-collide from bottom
+    ok 1 - should be equal
+    1..1
+ok 4 - avoid backwards self-collide from bottom # time=1.343ms
+
+# Subtest: avoid self-collide from bottom
+    not ok 1 - should be equal
+    1..1
+not ok 5 - avoid self-collide from bottom # time=2.299ms
+
+# Subtest: avoid self-collide from top
+    not ok 1 - should be equal
+    1..1
+not ok 6 - avoid self-collide from top # time=2.095ms
+
+6 8
+6 7
+6 7
+# Subtest: avoid self-collide from left
+    not ok 1 - should be equal
+    1..1
+not ok 7 - avoid self-collide from left # time=3.408ms
+
+6 8
+6 5
+6 5
+6 5
+# Subtest: avoid self-collide from right
+    not ok 1 - should be equal
+    1..1
+not ok 8 - avoid self-collide from right # time=5.537ms
+
+1..8

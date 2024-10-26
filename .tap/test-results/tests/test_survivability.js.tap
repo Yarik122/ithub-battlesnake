@@ -1,0 +1,9 @@
+TAP version 14
+# Subtest: must survive at least 20 turns
+    ok 1 - should be equal
+    1..1
+ok 1 - must survive at least 20 turns # time=787.04ms
+
+not ok 2 - test assertion after end() was called
+not ok 3 - test end() method called more than once
+1..3

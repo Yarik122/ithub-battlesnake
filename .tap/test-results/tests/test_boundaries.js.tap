@@ -1,0 +1,55 @@
+TAP version 14
+1 1
+# Subtest: avoid hitting the north wall
+    ok 1 - should be equal
+    1..1
+ok 1 - avoid hitting the north wall # time=5.135ms
+
+# Subtest: avoid hitting the west wall
+    ok 1 - should be equal
+    1..1
+ok 2 - avoid hitting the west wall # time=1.218ms
+
+# Subtest: avoid hitting the northwest corner
+    ok 1 - should be equal
+    1..1
+ok 3 - avoid hitting the northwest corner # time=1.064ms
+
+0 0
+# Subtest: avoid hitting the southwest corner, southbound
+    ok 1 - should be equal
+    1..1
+ok 4 - avoid hitting the southwest corner, southbound # time=1.362ms
+
+5 5
+# Subtest: avoid hitting the south wall
+    ok 1 - should be equal
+    1..1
+ok 5 - avoid hitting the south wall # time=1.064ms
+
+# Subtest: avoid hitting the southeast corner, eastbound
+    ok 1 - should be equal
+    1..1
+ok 6 - avoid hitting the southeast corner, eastbound # time=0.806ms
+
+# Subtest: survive the northeast corner, northbound
+    ok 1 - should be equal
+    1..1
+ok 7 - survive the northeast corner, northbound # time=0.613ms
+
+# Subtest: avoid hitting the northeast corner, eastbound
+    ok 1 - should be equal
+    1..1
+ok 8 - avoid hitting the northeast corner, eastbound # time=0.435ms
+
+# Subtest: avoid hitting the east wall, southbound
+    ok 1 - should be equal
+    1..1
+ok 9 - avoid hitting the east wall, southbound # time=0.437ms
+
+# Subtest: avoid hitting the east wall and another snake, eastbound
+    ok 1 - should be equal
+    1..1
+ok 10 - avoid hitting the east wall and another snake, eastbound # time=0.57ms
+
+1..10
